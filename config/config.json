@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "anshy-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anshyWebPart/AnshyWebPartWebPart.js",
+          "manifest": "./src/webparts/anshyWebPart/AnshyWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AnshyWebPartWebPartStrings": "lib/webparts/anshyWebPart/loc/{locale}.js"
+  }
+}
